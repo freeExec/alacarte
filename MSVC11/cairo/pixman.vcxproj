@@ -51,6 +51,7 @@
       <AdditionalIncludeDirectories>$(PixmanSrcDir)\pixman</AdditionalIncludeDirectories>
       <AdditionalOptions>-DPACKAGE=$(LIBRARY) -DPACKAGE_VERSION="" -DPACKAGE_BUGREPORT="" %(AdditionalOptions)</AdditionalOptions>
       <CompileAs>CompileAsC</CompileAs>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

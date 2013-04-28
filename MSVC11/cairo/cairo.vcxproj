@@ -48,6 +48,7 @@
       <AdditionalIncludeDirectories>$(PixmanSrcDir)\pixman;$(CairoSrcDir)\src;$(ZLibSrcDir);$(PnglibSrcDir)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>CAIRO_WIN32_STATIC_BUILD;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CompileAs>CompileAsC</CompileAs>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

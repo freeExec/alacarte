@@ -112,7 +112,7 @@
       <Optimization>Disabled</Optimization>
       <BrowseInformation>true</BrowseInformation>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX86</TargetMachine>
