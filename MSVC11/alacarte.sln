@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cairo", "cairo\cairo.vcxpro
 		{6E70F7C3-DEFB-4A7F-9A04-FCF995924C1C} = {6E70F7C3-DEFB-4A7F-9A04-FCF995924C1C}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log4cppLIB", "alacarte\log4cppLIB.vcxproj", "{AFA856A0-2388-4673-9277-CE4061709569}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log4cpp", "alacarte\log4cpp.vcxproj", "{AFA856A0-2388-4673-9277-CE4061709569}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pixman", "cairo\pixman.vcxproj", "{6E70F7C3-DEFB-4A7F-9A04-FCF995924C1C}"
 EndProject
