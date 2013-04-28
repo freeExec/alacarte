@@ -42,3 +42,9 @@ doc/doxygen/
 # Stylesheet
 *.error
 
+# MS Visual Studio
+MSVC11/Debug
+MSVC11/alacarte/Debug
+MSVC11/cairo/Debug
+MSVC11/alacarte.*sdf
+
