@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\win32">
+      <UniqueIdentifier>{143a18b7-3fa9-4a22-9990-698ee5ed075d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-analysis-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-arc.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-array.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-atomic.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-base64-stream.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-base85-stream.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-bentley-ottmann.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-bentley-ottmann-rectangular.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-bentley-ottmann-rectilinear.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-botor-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-boxes.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-boxes-intersect.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-cache.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-cff-subset.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip-boxes.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip-polygon.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip-region.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-clip-tor-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-color.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-composite-rectangles.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-contour.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-damage.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-debug.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-default-context.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-deflate-stream.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-device.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-error.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-fallback-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-fixed.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-font-face.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-font-face-twin.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-font-face-twin-data.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-font-options.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-freed-pool.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-freelist.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-gstate.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-hash.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-hull.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-image-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-image-info.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-image-source.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-image-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-lzw.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-mask-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-matrix.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-mempool.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-mesh-pattern-rasterizer.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-misc.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-mono-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-mutex.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-no-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-observer.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-output-stream.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-paginated-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-bounds.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-fill.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-fixed.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-in-fill.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-stroke.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-stroke-boxes.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-stroke-polygon.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-stroke-traps.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-path-stroke-tristrip.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-pattern.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-pdf-operators.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-pdf-shading.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-pdf-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-pen.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-png.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-polygon.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-polygon-intersect.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-polygon-reduce.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-ps-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-raster-source-pattern.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-recording-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-rectangle.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-rectangular-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-region.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-rtree.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-scaled-font.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-scaled-font-subsets.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-script-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-shape-mask-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-slope.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-spans.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-spans-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-spline.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-stroke-dash.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-stroke-style.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-clipper.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-fallback.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-observer.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-offset.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-snapshot.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-subsurface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-surface-wrapper.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-svg-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-time.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-tor22-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-tor-scan-converter.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-toy-font-face.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-traps.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-traps-compositor.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-tristrip.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-truetype-subset.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-type1-fallback.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-type1-glyph-names.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-type1-subset.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-type3-glyph-surface.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-unicode.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-user-font.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-version.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\cairo-wideint.c">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-surface.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-debug.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-device.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-display-surface.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-font.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-gdi-compositor.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-printing-surface.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(CairoSrcDir)\src\win32\cairo-win32-system.c">
+      <Filter>Файлы исходного кода\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(CairoSrcDir)\src\cairo-features.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CairoSrcDir)\src\cairo-mutex-list-private.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CairoSrcDir)\src\cairo-win32.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="$(CairoSrcDir)\src\cairoint.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

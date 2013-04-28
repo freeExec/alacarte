@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * alacarte.props -  tile renderer for OpenStreetMap
+ *
+ * 2013
+ *
+ * You must edit this file to record the location of the libs
+ * source code.
+ -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <Log4cppSrcDir>..\..\..\log4cpp</Log4cppSrcDir>
+    <BoostSrcDir>..\..\..\boost_1_53_0</BoostSrcDir>
+    <CairoSrcDir>..\..\..\cairo-1.12.14</CairoSrcDir>
+    <PixmanSrcDir>..\..\..\pixman-0.28.2</PixmanSrcDir>
+    <PnglibSrcDir>..\..\..\lpng161</PnglibSrcDir>
+    <ZLibSrcDir>..\..\..\zlib-1.2.7</ZLibSrcDir>
+    <CairommSrcDir>..\..\..\cairomm-1.10.0</CairommSrcDir>
+    <SigcLibSrcDir>..\..\..\libsigc++-2.3.1</SigcLibSrcDir>
+  </PropertyGroup>
+</Project>

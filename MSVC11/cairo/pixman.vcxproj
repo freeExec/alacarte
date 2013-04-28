@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6E70F7C3-DEFB-4A7F-9A04-FCF995924C1C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>pixman</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\alacarte.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(PixmanSrcDir)\pixman</AdditionalIncludeDirectories>
+      <AdditionalOptions>-DPACKAGE=$(LIBRARY) -DPACKAGE_VERSION="" -DPACKAGE_BUGREPORT="" %(AdditionalOptions)</AdditionalOptions>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-access-accessors.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-access.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-arm.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-bits-image.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-combine-float.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-combine32.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-conical-gradient.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-edge-accessors.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-edge.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-fast-path.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-general.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-glyph.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-gradient-walker.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-image.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-implementation.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-linear-gradient.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-matrix.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-mips.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-noop.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-ppc.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-radial-gradient.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-region16.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-region32.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-solid-fill.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-sse2.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-timer.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-trap.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-utils.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-x86.c" />
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-accessor.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-combine32.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-compiler.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-edge-imp.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-inlines.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-private.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman.h" />
+    <ClInclude Include="$(PixmanSrcDir)\pixman\pixman-version.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
