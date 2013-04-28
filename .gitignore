@@ -47,4 +47,4 @@ MSVC11/Debug
 MSVC11/alacarte/Debug
 MSVC11/cairo/Debug
 MSVC11/alacarte.*sdf
-
+MSVC11/*.suo
