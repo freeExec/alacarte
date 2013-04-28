@@ -48,208 +48,208 @@
     <ClCompile Include="..\..\src\alacarte_server.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\general\configuration.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\geodata.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\geo_object.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\node.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\nodeKdTree.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\relation.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\general\way.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\cache.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\server\eval\binary_operation_node.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\server\eval\eval.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\server\eval\eval_helpers.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\server\eval\function_operation_node.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\server\eval\stleaf.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\server\eval\unary_operation_node.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\http\request_parser.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\http_request.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\http_server.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\job.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\meta_identifier.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\meta_tile.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\color_grammar.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\comment_skipper.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\eval_grammar.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\mapcss_grammar.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\mapcss_parser.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\parser\parser_logger.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\renderer\node_renderer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\renderer\object_renderer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\renderer\relation_renderer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\renderer\renderer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\renderer\way_renderer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\request_manager.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\rule.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\apply_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\area_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\childnodes_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\childways_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\hasnottag_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\hastag_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\line_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\tagequals_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\taglargerequals_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\taglarger_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\tagmatches_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\tagsmallerequals_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\tagsmaller_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\selectors\tagunequals_selector.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\style.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\stylesheet.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\stylesheet_manager.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\style_template.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\tile.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\server\tile_identifier.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\server\eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\applications.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\apply_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\area_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\cache.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\cached_string.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\childnodes_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\childways_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\parser\color_grammar.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\colorTable.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\utils\precached_strings.cpp">
-      <Filter>Файлы исходного кода</Filter>
+    <ClCompile Include="..\..\src\server\parser\comment_skipper.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\parser\eval_grammar.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\geo_object.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\http_server.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\http_request.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\job.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\hasnottag_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\configuration.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\geodata.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\hastag_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\node.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\meta_identifier.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\parser\mapcss_parser.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\parser\mapcss_grammar.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\line_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\random.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\renderer\way_renderer.cpp">
+      <Filter>Файлы исходного кода\server\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\meta_tile.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\nodeKdTree.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\way.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\general\relation.cpp">
+      <Filter>Файлы исходного кода\general</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\precached_strings.cpp">
+      <Filter>Файлы исходного кода\utils</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\statistic.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\time_win.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\utils\transform.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>Файлы исходного кода\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\http\request_parser.cpp">
+      <Filter>Файлы исходного кода\server\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\parser\parser_logger.cpp">
+      <Filter>Файлы исходного кода\server\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\renderer\node_renderer.cpp">
+      <Filter>Файлы исходного кода\server\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\renderer\object_renderer.cpp">
+      <Filter>Файлы исходного кода\server\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\renderer\relation_renderer.cpp">
+      <Filter>Файлы исходного кода\server\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\renderer\renderer.cpp">
+      <Filter>Файлы исходного кода\server\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\tagequals_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\taglarger_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\taglargerequals_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\tagmatches_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\tagsmaller_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\tagsmallerequals_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\tagunequals_selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\request_manager.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\rule.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\selectors\selector.cpp">
+      <Filter>Файлы исходного кода\server\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\style.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\tile_identifier.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\style_template.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\stylesheet.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\stylesheet_manager.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\tile.cpp">
+      <Filter>Файлы исходного кода\server</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\utils\time_win.hpp">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\server\renderer\node_renderer.hpp">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\server\renderer\object_renderer.hpp">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\utils</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\server\renderer\relation_renderer.hpp">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\renderer\object_renderer.hpp">
+      <Filter>Заголовочные файлы\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\renderer\node_renderer.hpp">
+      <Filter>Заголовочные файлы\renderer</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\server\renderer\way_renderer.hpp">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>Заголовочные файлы\utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
