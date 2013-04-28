@@ -27,6 +27,9 @@
 #include "server/job.hpp"
 #include "general/configuration.hpp"
 
+#ifdef _MSC_VER
+	#include "utils/time_win.hpp"
+#endif //_MSC_VER
 #define DEBUG(...) (log4cpp::Category::getInstance("RequestManager").info(__VA_ARGS__));
 
 class RequestManager::RunningQueue

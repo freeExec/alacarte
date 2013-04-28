@@ -37,6 +37,9 @@
 #include "utils/rect.hpp"
 #include <stack>
 
+#ifdef _MSC_VER
+	#include "utils/time_win.hpp"
+#endif //_MSC_VER
 #define DEBUG(...) (log4cpp::Category::getInstance("NodeTree").info(__VA_ARGS__));
 
 void NodeKdTree::buildTree()
