@@ -37,6 +37,7 @@ string UnaryOperationNode::eval(GeoObject* obj) const
 {
 	// This is needed beacase of MSVC
 	assert(false);
+	return "";
 }
 
 
