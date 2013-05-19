@@ -36,6 +36,8 @@
 
 
 #define cxCOLOR_CONV (0.003921568627450980392156862745098f)
+#undef min
+#undef max
 
 class Color
 {

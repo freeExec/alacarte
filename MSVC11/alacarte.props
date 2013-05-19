@@ -11,9 +11,9 @@
   <PropertyGroup Label="Globals">
     <Log4cppSrcDir>..\..\..\log4cpp</Log4cppSrcDir>
     <BoostSrcDir>..\..\..\boost_1_53_0</BoostSrcDir>
-    <CairoSrcDir>..\..\..\cairo-1.12.14</CairoSrcDir>
+    <CairoSrcDir>..\..\..\cairo-git</CairoSrcDir>
     <PixmanSrcDir>..\..\..\pixman-0.28.2</PixmanSrcDir>
-    <PnglibSrcDir>..\..\..\lpng161</PnglibSrcDir>
+    <PnglibSrcDir>..\..\..\lp162r04</PnglibSrcDir>
     <ZLibSrcDir>..\..\..\zlib-1.2.7</ZLibSrcDir>
     <CairommSrcDir>..\..\..\cairomm-1.10.0</CairommSrcDir>
     <SigcLibSrcDir>..\..\..\libsigc++-2.3.1</SigcLibSrcDir>

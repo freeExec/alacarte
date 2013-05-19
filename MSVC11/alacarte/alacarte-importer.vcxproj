@@ -35,6 +35,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>alacarteimporter</RootNamespace>
   </PropertyGroup>
+  <Import Project="$(SolutionDir)\alacarte.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -76,13 +77,14 @@
       <AdditionalIncludeDirectories>..\..\include;..\..\..\boost_1_53_0;..\..\..\log4cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <CompileAs>CompileAsCpp</CompileAs>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>-D_WIN32_WINNT=0x0501 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>i:\MyWorkProg\Map_Gis\Alacarte\boost_1_53_0\stage\lib;i:\MyWorkProg\Map_Gis\Alacarte\log4cpp\msvc10\log4cppLIB\Debug;i:\MyWorkProg\Map_Gis\Alacarte\gtkmm64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>log4cppD.lib;libboost_system-vc110-mt-gd-1_53.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);$(BoostSrcDir)\stage\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>log4cpp.lib;</AdditionalDependencies>
       <ProfileGuidedDatabase />
     </Link>
     <ProjectReference>

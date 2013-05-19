@@ -2,11 +2,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alacarte-importer", "alacarte\alacarte-importer.vcxproj", "{409859B6-035C-41D8-8361-4B14536539CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFA856A0-2388-4673-9277-CE4061709569} = {AFA856A0-2388-4673-9277-CE4061709569}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alacarte-server", "alacarte\alacarte-server.vcxproj", "{1EBD0C2A-6C82-4AA8-AFAF-A0531DCB97D7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{58B2B53C-C4FF-47FD-817B-095E45B7F7D4} = {58B2B53C-C4FF-47FD-817B-095E45B7F7D4}
 		{AFA856A0-2388-4673-9277-CE4061709569} = {AFA856A0-2388-4673-9277-CE4061709569}
+		{409859B6-035C-41D8-8361-4B14536539CA} = {409859B6-035C-41D8-8361-4B14536539CA}
 		{83997EF6-02D6-4CDB-8B3C-DBCA3018CC72} = {83997EF6-02D6-4CDB-8B3C-DBCA3018CC72}
 	EndProjectSection
 EndProject
