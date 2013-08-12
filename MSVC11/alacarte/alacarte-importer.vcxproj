@@ -16,7 +16,6 @@
     <ClCompile Include="..\..\src\general\geodata.cpp" />
     <ClCompile Include="..\..\src\general\geo_object.cpp" />
     <ClCompile Include="..\..\src\general\node.cpp" />
-    <ClCompile Include="..\..\src\general\nodeKdTree.cpp" />
     <ClCompile Include="..\..\src\general\relation.cpp" />
     <ClCompile Include="..\..\src\general\way.cpp" />
     <ClCompile Include="..\..\src\importer\importer.cpp" />

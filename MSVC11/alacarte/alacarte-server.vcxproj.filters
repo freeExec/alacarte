@@ -147,9 +147,6 @@
     <ClCompile Include="..\..\src\server\meta_tile.cpp">
       <Filter>Файлы исходного кода\server</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\general\nodeKdTree.cpp">
-      <Filter>Файлы исходного кода\general</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\general\way.cpp">
       <Filter>Файлы исходного кода\general</Filter>
     </ClCompile>
