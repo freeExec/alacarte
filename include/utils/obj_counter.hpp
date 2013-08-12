@@ -19,20 +19,25 @@
  */
 
 #pragma once
-#ifndef TRANSFORM_HPP
-#define TRANSFORM_HPP
+#ifndef OBJ_COUNTER_HPP
+#define OBJ_COUNTER_HPP
 
 #include "settings.hpp"
 
-#include <utils/point.hpp>
+template<typename Obj>
+class ObjCounter
+{
+	private:
+		static std::atomic<unsigned int> count;
 
-void tileToMercator(int tx, int ty, int zoom, coord_t& x, coord_t& y);
-void mercatorToTile(coord_t x, coord_t y, int zoom, int& tx, int& ty);
+	public:
+		ObjCounter() { count++; }
+		ObjCounter(const ObjCounter& obj) { count++; }
+		~ObjCounter() { count--; }
+		static unsigned int getCount() { return count.load(); }
+};
 
-void projectMercator(const FloatPoint& p, coord_t& x, coord_t& y);
-void inverseMercator(const FixedPoint& p, double& lat, double& lon);
-
-void rot(uint32_t n, FixedPoint& p, bool rx, bool ry);
-uint64_t xy2hilbert (FixedPoint p);
+template<typename Obj>
+std::atomic<unsigned int> ObjCounter<Obj>::count(0);
 
 #endif

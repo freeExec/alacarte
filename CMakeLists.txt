@@ -2,11 +2,12 @@ project(alacarte)
 
 cmake_minimum_required( VERSION 2.8 )
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 #
 # Depends
 #
-find_package(Boost 1.47.0 COMPONENTS system filesystem thread unit_test_framework program_options serialization regex REQUIRED)
+find_package(Boost 1.47.0 COMPONENTS system filesystem thread unit_test_framework program_options serialization regex iostreams REQUIRED)
 
 if (NOT Boost_FOUND)
 	message(FATAL_ERROR "Fatal error: Boost (version >= 1.47.0) required.\n")
@@ -27,6 +28,13 @@ if (NOT BOOST_XTIME)
 endif()
 
 find_package(Log4Cpp REQUIRED)
+# FIXME hack for backward compability
+if (NOT Log4Cpp_LIBRARIES)
+	set (Log4Cpp_LIBRARIES "${LOG4CPP_LIBRARIES}")
+	set (Log4Cpp_DEFINITIONS "${LOG4CPP_DEFINITIONS}")
+	set (Log4Cpp_INCLUDE_DIRS "${LOG4CPP_INCLUDE_DIRS}")
+endif()
+
 IF(NOT MINGW)
 	find_package(Inotify REQUIRED)
 ENDIF(NOT MINGW)
@@ -76,11 +84,11 @@ IF(EXISTS "${PROJECT_SOURCE_DIR}/gmock" AND IS_DIRECTORY "${PROJECT_SOURCE_DIR}/
 	SET(GMOCK_FOUND 1)
 ENDIF(EXISTS "${PROJECT_SOURCE_DIR}/gmock" AND IS_DIRECTORY "${PROJECT_SOURCE_DIR}/gmock")
 
-include_directories(include ${Boost_INCLUDE_DIRS} ${LOG4CPP_INCLUDE_DIRS} ${SigC++_INCLUDE_DIRS} ${Freetype_INCLUDE_DIRS} ${Cairomm_INCLUDE_DIRS})
+include_directories(include ${Boost_INCLUDE_DIRS} ${Log4Cpp_INCLUDE_DIRS} ${SigC++_INCLUDE_DIRS} ${Freetype_INCLUDE_DIRS} ${Cairomm_INCLUDE_DIRS})
 
 ADD_DEFINITIONS("-std=c++0x")
 ADD_DEFINITIONS(-DBOOST_TEST_DYN_LINK)
-ADD_DEFINITIONS(${LOG4CPP_DEFINITIONS})
+ADD_DEFINITIONS(${Log4Cpp_DEFINITIONS})
 ADD_DEFINITIONS(-DStatistic_Activated)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror")
@@ -149,17 +157,17 @@ IF(GMOCK_FOUND)
 	set_target_properties(unitTests_mapcss PROPERTIES COMPILE_DEFINITIONS "ALACARTE_TEST")
 ENDIF(GMOCK_FOUND)
 
-target_link_libraries(alacarte-server 		${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${LOG4CPP_LIBRARIES} ${SigC++_LIBRARIES} pthread ${SYSTEM_LIBRARIES})
-target_link_libraries(alacarte-importer 	${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} pthread ${SYSTEM_LIBRARIES})
-target_link_libraries(unitTests_utils 		${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${LOG4CPP_LIBRARIES} pthread)
-target_link_libraries(unitTests_general 	${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${LOG4CPP_LIBRARIES} ${SigC++_LIBRARIES} pthread)
-target_link_libraries(unitTests_importer 	${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
-target_link_libraries(unitTests_server 		${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
-target_link_libraries(unitTests_parser 		${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
+target_link_libraries(alacarte-server 		${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${Log4Cpp_LIBRARIES} ${SigC++_LIBRARIES} pthread ${SYSTEM_LIBRARIES})
+target_link_libraries(alacarte-importer 	${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} pthread ${SYSTEM_LIBRARIES})
+target_link_libraries(unitTests_utils 		${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${Log4Cpp_LIBRARIES} pthread)
+target_link_libraries(unitTests_general 	${Boost_LIBRARIES} ${Cairomm_LIBRARIES} ${Log4Cpp_LIBRARIES} ${SigC++_LIBRARIES} pthread)
+target_link_libraries(unitTests_importer 	${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
+target_link_libraries(unitTests_server 		${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
+target_link_libraries(unitTests_parser 		${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
 IF(GMOCK_FOUND)
-	target_link_libraries(unitTests_mapcss 		${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread gmock gtest)
+	target_link_libraries(unitTests_mapcss 		${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread gmock gtest)
 ENDIF(GMOCK_FOUND)
-target_link_libraries(unitTests_eval 		${Boost_LIBRARIES} ${LOG4CPP_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
+target_link_libraries(unitTests_eval 		${Boost_LIBRARIES} ${Log4Cpp_LIBRARIES} ${Cairomm_LIBRARIES} ${SigC++_LIBRARIES} pthread)
 
 set(test_files "${CMAKE_CURRENT_SOURCE_DIR}/tests/data/input/karlsruhe_big.carte" "${CMAKE_CURRENT_SOURCE_DIR}/tests/data/input/renderer_test.carte" "${CMAKE_CURRENT_SOURCE_DIR}/tests/data/input/test_tiles.carte")
 
