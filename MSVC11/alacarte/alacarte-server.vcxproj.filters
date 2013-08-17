@@ -231,6 +231,9 @@
     <ClCompile Include="..\..\src\server\tile.cpp">
       <Filter>Файлы исходного кода\server</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\utils\archive.cpp">
+      <Filter>Файлы исходного кода\utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\utils\time_win.hpp">

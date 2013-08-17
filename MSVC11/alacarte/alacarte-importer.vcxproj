@@ -21,6 +21,7 @@
     <ClCompile Include="..\..\src\importer\importer.cpp" />
     <ClCompile Include="..\..\src\precompiled_header.cpp" />
     <ClCompile Include="..\..\src\utils\applications.cpp" />
+    <ClCompile Include="..\..\src\utils\archive.cpp" />
     <ClCompile Include="..\..\src\utils\cached_string.cpp" />
     <ClCompile Include="..\..\src\utils\colorTable.cpp" />
     <ClCompile Include="..\..\src\utils\precached_strings.cpp" />
