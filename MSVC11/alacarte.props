@@ -12,7 +12,7 @@
     <Log4cppSrcDir>..\..\..\log4cpp</Log4cppSrcDir>
     <BoostSrcDir>..\..\..\boost_1_55_0</BoostSrcDir>
     <CairoSrcDir>..\..\..\cairo-git</CairoSrcDir>
-    <PixmanSrcDir>..\..\..\pixman-0.28.2</PixmanSrcDir>
+    <PixmanSrcDir>..\..\..\pixman-0.32.4</PixmanSrcDir>
     <PnglibSrcDir>..\..\..\lp162r04</PnglibSrcDir>
     <ZLibSrcDir>..\..\..\zlib-1.2.7</ZLibSrcDir>
     <CairommSrcDir>..\..\..\cairomm-1.10.0</CairommSrcDir>

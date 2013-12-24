@@ -108,6 +108,9 @@
     <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-mips.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="$(PixmanSrcDir)\pixman\pixman-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(PixmanSrcDir)\pixman\pixman.h">
