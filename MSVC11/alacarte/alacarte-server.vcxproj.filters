@@ -251,5 +251,8 @@
     <ClInclude Include="..\..\src\server\renderer\way_renderer.hpp">
       <Filter>Заголовочные файлы\utils</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\utils\random.hpp">
+      <Filter>Заголовочные файлы\utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
