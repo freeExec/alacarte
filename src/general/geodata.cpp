@@ -107,7 +107,9 @@ void Geodata::insertRelations(const shared_ptr<std::vector<Relation> >& relation
 
 bool Geodata::containsData(const FixedRect &rect) const
 {
-	return nodesTree->contains(rect) || waysTree->contains(rect) || relTree->contains(rect);
+	return (nodesTree && nodesTree->contains(rect))
+		|| (waysTree && waysTree->contains(rect))
+		|| (relTree && relTree->contains(rect));
 }
 
 shared_ptr<std::vector<NodeId> > Geodata::getNodeIDs(const FixedRect& rect) const
